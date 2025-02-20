@@ -13,7 +13,7 @@ const Sponsorships = () => {
     <div>
       <main>
         {/* Sponsorship Hero Section */}
-        <Hero media={{ type: "image", src: "/hero-image.png" }} title={title} isSpecial={true} />
+        <Hero media={{ type: "image", src: "/5.jpg" }} title={title} isSpecial={true} />
         <SpeakerIntro />
         <SponsorWhy />
         <SponsorshipPackages />

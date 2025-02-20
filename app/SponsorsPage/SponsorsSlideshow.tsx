@@ -13,12 +13,12 @@ interface SlideshowProps {
 }
 
 const slides: Slide[] = [
-  { id: "01", collaborator: "Wokrshop", imageUrl: "/Podcast1.jpg", link: "https://goldminingforpreforeclosures.com/" },
-  { id: "02", collaborator: "EliteSpaces", imageUrl: "/Podcast2.jpg", link: "https://elitespaces.org/" },
-  { id: "03", collaborator: "CreativeFunding", imageUrl: "/Podcast3.jpg", link: "https://creative-funding.vercel.app/" },
-  { id: "04", collaborator: "360MarketingSolutions", imageUrl: "/Podcast6.jpg", link: "https://www.360marketingsolutions.co.in/" }, //choose better image
-  { id: "05", collaborator: "AcostaExteriors", imageUrl: "/Podcast5.jpg", link: "https://acostaexteriors.com/" },
-  { id: "06", collaborator: "Potfolio", imageUrl: "/Podcast6.jpg", link: "https://nitapsharma.com/" },
+  { id: "01", collaborator: "Workshop", imageUrl: "/workshop.png", link: "https://goldminingforpreforeclosures.com/" },
+  { id: "02", collaborator: "EliteSpaces", imageUrl: "/ee.png", link: "https://elitespaces.org/" },
+  { id: "03", collaborator: "CreativeFunding", imageUrl: "/cf.png", link: "https://creative-funding.vercel.app/" },
+  { id: "04", collaborator: "360MarketingSolutions", imageUrl: "/360.png", link: "https://www.360marketingsolutions.co.in/" }, //choose better image
+  { id: "05", collaborator: "AcostaExteriors", imageUrl: "/ae.png", link: "https://acostaexteriors.com/" },
+  { id: "06", collaborator: "Potfolio", imageUrl: "/portfolio.png", link: "https://nitapsharma.com/" },
 ];
 
 const SponsorsSlideshow: React.FC<SlideshowProps> = ({
@@ -49,7 +49,7 @@ const SponsorsSlideshow: React.FC<SlideshowProps> = ({
   }, [autoPlayInterval]);
 
   return (
-    <div className="w-full mx-auto p-4 sm:p-6 md:p-8">
+    <div className="w-full mx-auto p-4 sm:p-6 md:p-8" id="projects">
       {/* Marquee Section */}
       <div className="overflow-hidden bg-transparent py-14 sm:py-14 md:py-16 lg:py-20">
         <div className="flex animate-marquee whitespace-nowrap">
@@ -93,7 +93,7 @@ const SponsorsSlideshow: React.FC<SlideshowProps> = ({
                 loading="lazy"
               />
             </a>
-            <h2 className="absolute inset-x-0 top-1/2 -translate-y-1/2 text-center text-white text-xs sm:text-sm md:text-xl lg:text-2xl font-semibold tracking-tighter bg-black/60 px-4 py-2">
+            <h2 className="absolute inset-x-0 top-1/2 -translate-y-1/2 text-center text-white text-xs sm:text-sm md:text-xl lg:text-2xl font-semibold tracking-tighter bg-black px-4 py-2">
               {slide.collaborator}
             </h2>
           </div>

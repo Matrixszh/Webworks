@@ -18,19 +18,19 @@ const SponsorWhy = () => {
       id: 1,
       title: 'Tailored Design',
       description: "We start by deeply understanding your brand, its values, and its goals. This allows us to craft a website that not only looks visually stunning but also aligns perfectly with your brand identity and target audience. Every design choice is made with your business in mind, ensuring a unique and impactful online presence.",
-      imageUrl: '/tabs-guy.png'
+      imageUrl: '/UI.jpg'
     },
     {
       id: 2,
       title: 'Transparent Development',
       description: "We believe in keeping our clients informed at every stage of development. Through regular updates, previews, and open communication, you can see your website come to life in real time. This ensures that you’re always aware of the progress and can provide feedback, making the final product exactly what you envisioned.",
-      imageUrl: '/tabs-guy.png'
+      imageUrl: '/coding.jpg'
     },
     {
       id: 3,
       title: 'Support & Guidance',
       description: "Our work doesn’t stop after your website is built. We offer continuous support to ensure everything runs smoothly. Whether you need technical assistance, updates, or just a walkthrough of how your website works, we’re always here to help. Our goal is to empower you with the knowledge and confidence to manage your website effortlessly.",
-      imageUrl: '/tabs-guy.png'
+      imageUrl: '/support.jpg'
     }
   ];
 

@@ -17,7 +17,7 @@ const SpeakerIntro= () => {
         {/* Right Section: Description */}
         <div className="w-full md:w-1/2" >
           <p className="text-sm md:text-base leading-relaxed text-gray-300" >
-          Whether you're a startup, a small business, or an established brand, We help bring your vision to life with stunning, high-performing websites. From modern UI/UX design to seamless development, We create customized websites that not only look great but also drive results. Let’s build your online presence the right way!
+          Whether you are a startup, a small business, or an established brand, We help bring your vision to life with stunning, high-performing websites. From modern UI/UX design to seamless development, We create customized websites that not only look great but also drive results. Let us build your online presence the right way!
           </p>
         </div>
       </div>
